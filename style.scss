@@ -1,0 +1,172 @@
+// body{
+//     overflow-x: hidden;
+// }
+#nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+nav {
+    // padding: 1px;
+    margin: 2px;
+    width: 100%;
+    background-color: rgb(179, 202, 195);
+    flex-wrap: wrap;
+    // position: sticky;
+    // top: 0px;
+    
+    #select{
+        font-size: 13px;
+        width: 100px;
+        .option{
+            font-size: 20px;
+        }
+    }
+
+    li {
+        list-style: none;
+        padding: 3px;
+        margin: 2px;
+        color: rgb(15, 15, 14);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    #login {
+        float: right;
+    }
+    i{
+        font-size: 30px;
+        
+
+    }
+
+    #flex {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #shop {
+
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    #sign {
+        text-decoration: none;
+        background-color: rgb(12, 12, 11);
+        color: rgb(247, 242, 242);
+        border-radius: 5px;
+    }
+
+    #margin{
+        margin-right: 100px;
+    }
+
+}
+#offcanvasScrolling{
+    li{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    h3{
+        font-weight: bold;
+    }
+}
+#main{
+.cardCategory{
+    border: none;
+    box-shadow: 0px 2px 2px 2px gray;
+    // margin: 5px;
+    width: 420px;
+    margin-top: 25px;
+  
+   
+}
+
+
+#row{
+padding: 3px;
+margin: 10px;
+} 
+   .log{
+       box-shadow: 0px 5px 5px 3px gray;
+       
+        width: 400px;
+        height: 300px;
+        padding: 5px;
+       
+        border: 1px;
+        border-radius: 5px;
+    }
+    #logPar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        
+        
+    }
+    .signup{
+        box-shadow: 0px 5px 5px 3px gray;
+       
+        width: 400px;
+        height: 500px;
+        padding: 5px;
+       
+        border: 1px;
+        border-radius: 5px;
+    }
+   .signpage{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-top: 100px;
+        
+        
+    }
+    .price{
+      padding: 5px;
+      border: none;
+        box-shadow: 0px 0px 1px 0px gray;
+    }
+    .category{
+        padding: 5px;
+      border: none;
+        box-shadow: 0px 0px 1px 0px gray;
+    }
+    .ratings{
+        padding: 5px;
+      border: none;
+        box-shadow: 0px 0px 1px 0px gray;
+    }
+}
+
+#Foot{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(57, 61, 78);
+    margin: 50px 10px 20px 0px;
+    li{
+      margin-bottom: 15px;
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: white;
+          
+        }
+     i{
+        margin-right: 5px;
+     }  
+    }
+    h4{
+        color: white;
+     }
+
+}
+
+
